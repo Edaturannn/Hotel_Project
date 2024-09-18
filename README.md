@@ -1,23 +1,43 @@
 — Auto Mapper
+
 — Asp.Net Core API
+
 — Asp.Net Identity
+
 — Swagger
+
 — Postman
+
 — Docker
+
 — API Consume
+
 — Rapid API
+
 — Json Web Token
+
 — Outh 2.0
+
 — Login
+
 — Register
+
 — Asp.Net Core 7.0
+
 — Identity Database Kütüphanesi
+
 — Fluent Validation
+
 — N Tier Architecture
+
 — Dto Layer
+
 — MVC
+
 — Entity Framework Core
+
 — Repository Design Pattern
+
 — Mail Gönderme İşlemleri
 
 
@@ -29,17 +49,29 @@ Kullanılan Teknolojiler ve Mimariler
 Proje, modern yazılım geliştirme teknikleri ve endüstri standartları doğrultusunda inşa edilmiştir.
 
 ASP.NET Core 6.0: Güçlü ve ölçeklenebilir bir web uygulaması altyapısı sağlar.
+
 Entity Framework Core: Code-First yaklaşımı ile esnek bir veri modeli sunar.
+
 N-Tier Architecture: Katmanlara ayrılmış bir uygulama yapısı sağlar, bu da geliştirme ve bakım süreçlerini kolaylaştırır.
+
 SQL Server: Veriler, yerel SQL veritabanı yerine Docker üzerinde kurulan bir SQL sunucusunda tutulmuştur.
+
 Fluent Validation: Kullanıcı girdilerinin doğrulanmasını sağlar, böylece veri bütünlüğü artırılır.
+
 Repository Design Pattern: Sürdürülebilir bir yapı sunar ve Dependency Injection ile SOLID prensiplerine uygun olarak tasarlanmıştır.
+
 AutoMapper: DTO (Data Transfer Object) ve domain modeli arasında dönüşüm işlemleri gerçekleştirir.
+
 Identity: Güvenlik ve kimlik doğrulama sistemini yönetir.
+
 Docker: İzole bir ortamda çalıştırmak için konteynerlar kullandık. Bu, uygulamanın ana işletim sistemine bağımlılığını azaltmayı amaçladık.
+
 Json Web Token (JWT): API tarafında güvenliği sağlamak için kullanılır.
+
 Outh 2.0: Oluşturulan giriş token kontrolü yapılmak için kullanılır.
+
 API İletişimi: Veri alışverişi için API entegrasyonları gerçekleştirilmiştir.
+
 Rapid API: Dışarıdan çekilen veriler üzerinden API tüketimi yapılmıştır.
 
 
