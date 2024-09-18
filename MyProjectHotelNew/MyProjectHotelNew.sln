@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.WebApi", "HotelProject.WebApi\HotelProject.WebApi.csproj", "{8D3A1545-4623-4BEF-88CF-5F2E282D3C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.EntityLayer", "HotelProject.EntityLayer\HotelProject.EntityLayer.csproj", "{8A22B5D7-F745-40AA-9C07-6F4EF7FBACA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.DataAccessLayer", "HotelProject.DataAccessLayer\HotelProject.DataAccessLayer.csproj", "{E97738D0-0553-4BB2-8B96-531D0ABA16B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.BusinessLayer", "HotelProject.BusinessLayer\HotelProject.BusinessLayer.csproj", "{A850D35D-AAA5-4C72-B613-DB074E248AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.DtoLayer", "HotelProject.DtoLayer\HotelProject.DtoLayer.csproj", "{55D8151E-3C92-46EA-BCFE-CD58E70923B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.WebUI", "HotelProject.WebUI\HotelProject.WebUI.csproj", "{27EEB39F-EB30-4C79-BE10-D434C7B8D17A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D3A1545-4623-4BEF-88CF-5F2E282D3C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3A1545-4623-4BEF-88CF-5F2E282D3C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3A1545-4623-4BEF-88CF-5F2E282D3C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3A1545-4623-4BEF-88CF-5F2E282D3C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A22B5D7-F745-40AA-9C07-6F4EF7FBACA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A22B5D7-F745-40AA-9C07-6F4EF7FBACA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A22B5D7-F745-40AA-9C07-6F4EF7FBACA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A22B5D7-F745-40AA-9C07-6F4EF7FBACA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97738D0-0553-4BB2-8B96-531D0ABA16B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97738D0-0553-4BB2-8B96-531D0ABA16B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97738D0-0553-4BB2-8B96-531D0ABA16B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97738D0-0553-4BB2-8B96-531D0ABA16B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A850D35D-AAA5-4C72-B613-DB074E248AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A850D35D-AAA5-4C72-B613-DB074E248AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A850D35D-AAA5-4C72-B613-DB074E248AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A850D35D-AAA5-4C72-B613-DB074E248AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D8151E-3C92-46EA-BCFE-CD58E70923B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D8151E-3C92-46EA-BCFE-CD58E70923B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D8151E-3C92-46EA-BCFE-CD58E70923B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D8151E-3C92-46EA-BCFE-CD58E70923B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EEB39F-EB30-4C79-BE10-D434C7B8D17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EEB39F-EB30-4C79-BE10-D434C7B8D17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EEB39F-EB30-4C79-BE10-D434C7B8D17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EEB39F-EB30-4C79-BE10-D434C7B8D17A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF0AD960-A3C5-46AF-961D-CEC89D344767}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		outputpath = HotelProject.WebUI
+	EndGlobalSection
+EndGlobal

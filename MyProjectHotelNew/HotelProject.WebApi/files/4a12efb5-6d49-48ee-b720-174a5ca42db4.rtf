@@ -1,0 +1,117 @@
+{\rtf1\ansi\ansicpg1254\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12300\viewh15260\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Mikroservice Mimarisi Nedir?\
+\
+Mikroservis mimarisi(Microservices Archiecture) bir uygulaman\uc0\u305 n ba\u287 \u305 ms\u305 z ve \'f6l\'e7eklendirilebilir, tek bir i\u351 e odaklanm\u305 \u351  k\'fc\'e7\'fck atomik olan hizmetlere servislere ayr\u305 larak geli\u351 tirilmesini ve da\u287 \u305 t\u305 lmas\u305 n\u305  sa\u287 layan bir yaz\u305 l\u305 m geli\u351 tirme yakla\u351 \u305 m\u305 d\u305 r. Eskiden bir E Ticaret sitesi tek bir solution i\'e7inde yani tek bir proje \'fczerinden yaz\u305 l\u305 r ve y\'f6netilirdi. Ama mikroservice her bir i\u351 lem i\'e7in sepet, \'f6deme sistemi(payment), yorumlar, eklem  falan i\u351 lemelri ayr\u305  ayr\u305  projeler a\'e7arak olu\u351 turarak b\'fcy\'fck bir projeyi par\'e7alara ay\u305 rarak y\'f6netilmesi yaz\u305 lmas\u305 na denir. Mikroservice bir yakla\u351 \u305 m bir davran\u305 \u351 t\u305 r. Bu yakla\u351 \u305 m her bir servis uygulaman\u305 n bir i\u351 levinin sorumlulu\u287 unu \'fcstlenmekte ve ihtiya\'e7 do\u287 rultusunda birbirilkye ileti\u351 im kurarak daha b\'fcy\'fck bir sistem olu\u351 turmaktad\u305 rlar. API Gateway(Bir mikroservice tir.) Eski yap\u305 ya yan\u305  tek bir \'e7at\u305  alt\u305 nda toplayan tek bir proje Monolitik denir.\
+\
+Da\uc0\u287 \u305 t\u305 labilirlik Nedir?\
+\
+Bir yaz\uc0\u305 l\u305 m\u305 n da\u287 \u305 t\u305 k olmas\u305  ya da da\u287 \u305 t\u305 k olarak tasarlanmas\u305  farkl\u305  bile\u351 enlerinin veya mod\'fcllerinin fakl\u305  bilgisayarlarda yahut sunucularda da\u287 \u305 t\u305 lmas\u305  demektir. Da\u287 \u305 t\u305 tabilir sistemlerde(yani mikroservislerde) uygulaman\u305 n her bir servisi farkl\u305  bir konumda host ediliyor olsa da i\u351 levsel a\'e7\u305 dan bu servislerin bir b\'fct\'fcn olarak \'e7al\u305 \u351 mas\u305  esast\u305 r. T\'fcm bunlar\u305 n d\u305 \u351 \u305 nda da\u287 \u305 t\u305 k bir mimaride her bir servis farkl\u305  ekipler veya organizasyonlar taraf\u305 ndan geli\u351 tirilebilece\u287 i i\'e7in DevOps s\'fcre\'e7leri de servis baz\u305 nda olduk\'e7a kolay ve y\'f6netilebilir olmaktad\u305 r.\
+\
+\'d6l\'e7eklenebilirli\uc0\u287 i Nedir?\
+\
+\'d6l\'e7eklenebilirlik bir yaz\uc0\u305 l\u305 m sisteminde artan i\u351 lem yo\u287 unlu\u287 unu uygulama performans\u305 n\u305  koruyarak kar\u351 \u305 layabilmesi i\'e7in uygulanan davran\u305 \u351 t\u305 r. Performans\u305 ndan \'f6d\'fcn vermeden hizmet vermesi sa\u287 layan yap\u305 ya \'f6l\'e7eklendirme denir.\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Mikroservis Mimarisi Temel Kavramlar:\
+\
+Servis=> Mikroservis mimarisinin temel yap\uc0\u305  ta\u351 \u305 d\u305 r. Ba\u287 \u305 ms\u305 z i\u351 levselli\u287 e sahip, k\'fc\'e7\'fck ve sadece belirli bir i\u351 e odaklanm\u305 \u351  uygulaman\u305 n bile\u351 enleridir. Her servis, kendine \'f6zg\'fc veritaban\u305 na, i\u351  mant\u305 \u287 \u305 na ve enpoint\'92e sahiptir.\
+\
+\uc0\u304 \u351 lev=> Her servisin, spesifik bir \u351 eklide meydana getirdi\u287 i operasyonun i\u351 in ta kendisidir. Misal olarak; kullan\u305 c\u305  y\'f6netiminden sorumlu olan bir servisin kullan\u305 c\u305  yetkilendirmeyle ilgili deste\u287 i o servisin bir i\u351 levidir.\
+\
+\
+Ba\uc0\u287 \u305 ms\u305 zl\u305 k=> Her bir servis, birbirinden ba\u287 \u305 ms\u305 z ve kendi i\'e7erisinde tutarl\u305 l\u305 k sa\u287 layan bile\u351 enlerdir. Bir servisin \'e7\'f6kmesi veya g\'fcncellenmesi di\u287 er servisleri etkilemez. Bu \u351 ekilde uygulama par\'e7alara b\'f6l\'fcnd\'fc\u287 \'fc i\'e7in geli\u351 tirme, da\u287 \u305 t\u305 m ve bak\u305 m s\'fcre\'e7leri olduk\'e7a kolay ve y\'f6netilebilir olacakt\u305 r.\
+\
+\
+API=> Servislerin birbirleriyle yahut d\uc0\u305 \u351  d\'fcnyayla ileti\u351 im kurmas\u305 n\u305  sa\u287 layan aray\'fczlerdir. Genellikle senkron ileti\u351 im modellenmesinde tercih edilir.\
+\
+\
+Message Broker=> Servislerin birbirleriyle ileti\uc0\u351 im kurmas\u305 n\u305  sa\u287 layan kuyruk sistemidir. Genellikle asenkron ileti\u351 im modellemesinde tercih edilir.\
+\
+\
+\'d6l\'e7eklenebilirlik=> Her bir servis ihtiya\'e7 ve i\uc0\u351 lem hacmine g\'f6re di\u287 erlerinden ayr\u305  olarak \'f6l\'e7eklendirilebilir.\
+\
+\
+Yeniden Kullan\uc0\u305 labilirlik=> Mikroservisler i\u351 levsel a\'e7\u305 dan ba\u287 \u305 ms\u305 z ve tek bir i\u351 e odaklanm\u305 \u351  yap\u305 lar oldu\u287 u i\'e7in ihtiya\'e7 do\u287 rultusunda di\u287 er projelerde yahut farkl\u305  platformlar da yeniden kullan\u305 labilir.\
+\
+\
+Mimariyi g\'fc\'e7l\'fc esnek yap\uc0\u305 s\u305 n\u305  olu\u351 turur.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Mikroservisler de Servisler Aras\uc0\u305  \u304 leti\u351 im(Veri \u304 leti\u351 imi) Nas\u305 l Ger\'e7ekle\u351 tirilir?\
+\
+\
+HTTP Tabanl\uc0\u305  API\'92lar: En yayg\u305 n olarak kullan\u305 lan y\'f6ntemlerden birisidir. HTTP protokol\'fc \'fczerinden Rest API ler kullanarak yap\u305 lan ileti\u351 im modelidir. Bu y\'f6ntem servislerin HTTP talepleri arac\u305 l\u305 \u287 \u305 yla birbirleriyle etkile\u351 ime girmesine olanak tan\u305 maktad\u305 r. Client bir servise HTTP talebi g\'f6nderiri ve servis de HTTP yan\u305 t\u305  ile cevap veriri. Bu cevap client taraf\u305 ndan bekler-nece\u287 i i\'e7in genellikle senkron ileti\u351 im modellerinde tercih edilen y\'f6ntemdir. Veri payla\u351 \u305 m\u305 n JSON veya XML gibi formatlar sa\u287 lar. H\u305 zl\u305 \
+\
+\
+\
+Message Broker: Servisler message broker yap\uc0\u305 lar\u305  arac\u305 l\u305 \u287 \u305 yla asenkron bir \u351 ekilde birbirileriyle ileti\u351 im kurabilieler. Bu Modelde herhangi bir servis message broker a bir mesaj b\u305 rak\u305 r ve ghedef servis bu mesaj\u305  uygun zamanda al\u305 r ve i\u351 ler. Yava\u351 \
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Mikroservisler de Servisler Aras\uc0\u305  Veri \u304 leti\u351 iminde API Gateway in G\'f6revi Nedir?\
+\
+50 tane servisin her birin adresini bilmem gerekmiyor API Gateway ile bir k\'f6pr\'fc kurarak servislerele haberle\uc0\u351 meyi SA\u286 LIIYORUZ H\u304 \'c7B\u304 R \u350 EY B\u304 LMEDEN. \
+\
+API Gateway mikroservis mimarisinde geli\uc0\u351 tirme s\'fcresini k\u305 saltarak ve uygulamalar\u305  merkezi bir nokta \'fczerinden haberle\u351 tirecek \u351 ekilde odaklayacak m\'fchim bir rol \'fcstlenen bile\u351 endir. API Gateway(bir k\'f6pr\'fcd\'fcr.) en \'f6nemlisi g\'fcvenliktir.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Mikroservis Mimarisinde Bir Servisin S\uc0\u305 n\u305 rlar\u305  nNas\u305 l Belirlenir?\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Mikroservis mimarisinde bir servisin s\uc0\u305 n\u305 rlar\u305  belirlemek ba\u351 ar\u305 l\u305  bir uygulama tasar\u305 m\u305  a\'e7\u305 s\u305 ndan kritik \'f6nem arz etmektedir. \'d6zellikle her servisin s\u305 n\u305 rlar\u305 n\u305 n do\u287 ru bir \u351 ekilde tan\u305 mlanmas\u305  sistemin organlar\u305 n\u305 n daha esnek ba\u287 \u305 ms\u305 z ve \'f6l\'e7eklenebilir bir altyap\u305 da tasarlamam\u305 za imkan tan\u305 yacakt\u305 r.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+\uc0\u304 lkeler:\
+\
+Tek Sorumluluk Prensibi, D\uc0\u305 \u351  D\'fcnya Etkile\u351 imi, Ekip ve Organizasyon Yap\u305 s\u305 , Ba\u287 \u305 ml\u305 l\u305 klar ve S\u305 n\u305 rlar, Veri Yap\u305 s\u305  ve S\u305 n\u305 r\u305 \
+\
+\
+Not: Servislerin s\uc0\u305 n\u305 rlar\u305 n\u305  tamamen do\u287 ru belirlemek ba\u351 lang\u305 \'e7ta zor olabilir. \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Mikroserslerde Veritaban\uc0\u305  Stratejiler Nelerdir?\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}

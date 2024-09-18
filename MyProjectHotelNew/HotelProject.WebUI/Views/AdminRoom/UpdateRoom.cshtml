@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Update Room";
+    Layout = "_AdminLayout";
+}
+
+<form method="post" asp-action="UpdateRoom" asp-controller="AdminRoom">
+    <input type="hidden" name="RoomID" />
+    <label>Oda Numarası</label>
+    <input type="text" name="RoomNumber" class="form-control" />
+    <br />
+    <label>Oda Başlığı</label>
+    <input type="text" name="Title" class="form-control" />
+    <br />
+    <label>Fiyat</label>
+    <input type="text" name="Price" class="form-control" />
+    <br />
+    <label>Yatak Odası Sayısı</label>
+    <input type="text" name="BedCount" class="form-control" />
+    <br />
+    <label>Banyo Sayısı</label>
+    <input type="text" name="BathCount" class="form-control" />
+    <br />
+    <label>Oda Kapak Fotoğrafı</label>
+    <input type="text" name="RoomCoverImage" class="form-control" />
+    <br />
+    <label>Açıklama</label>
+    <input type="text" name="Description" class="form-control" />
+    <br />
+    <button class="btn btn-primary">Güncelle</button>
+</form>
+

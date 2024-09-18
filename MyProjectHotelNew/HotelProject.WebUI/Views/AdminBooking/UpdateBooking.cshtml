@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Update Booking";
+    Layout = "_AdminLayout";
+}
+<form method="post" asp-action="UpdateBooking" asp-controller="AdminBooking">
+    <input type="hidden" name="BookingID" />
+    <label>Misafir Adı Soyadı</label>
+    <input type="text" name="Name" class="form-control" />
+    <br />
+    <label>Misafir Mail Adresi</label>
+    <input type="email" name="Mail" class="form-control" />
+    <br />
+    <label>Misafir Giriş Tarihi</label>
+    <input type="date" name="CheckIn" class="form-control" />
+    <br />
+    <label>Misafir Çıkış Tarihi</label>
+    <input type="date" name="CheckOut" class="form-control" />
+    <br />
+    <label>Yetişkin Sayısı</label>
+    <input type="text" name="AdultCount" class="form-control" />
+    <br />
+    <label>Çocuk Sayısı</label>
+    <input type="text" name="ChilCount" class="form-control" />
+    <br />
+    <label>Oda Sayısı</label>
+    <input type="text" name="RoomCount" class="form-control" />
+    <br />
+ 
+    <label>Durum</label>
+    <input type="text" name="Status" class="form-control" />
+    <br />
+    <label>Özel İstekler</label>
+    <textarea class="form-control" rows="5" name="SpecialRequest"></textarea>
+    <br />
+    <label>Açıklama</label>
+    <textarea class="form-control" rows="5" name="Description"></textarea>
+    <br />
+    <button class="btn btn-primary">Güncelle</button>
+</form>

@@ -1,0 +1,8 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+<h1>Hoş Geldiniz Admin Sayfasına</h1>
+<h1>@User.Identity.Name</h1>
+<form method="post" action="/Logout/Index">
+    <button type="submit" class="btn mb-1 btn-rounded btn-outline-dark">Logout</button>
+</form>

@@ -1,0 +1,170 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.20">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.20">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="JsonConverter.Newtonsoft.Json" Version="0.6.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.20" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.12" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+    <PackageReference Include="System.Security.Permissions" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Models\Room\" />
+    <None Remove="Models\Staff\" />
+    <None Remove="Views\AdminStaff\" />
+    <None Remove="Models\Register\" />
+    <None Remove="Models\Login\" />
+    <None Remove="Views\Register\" />
+    <None Remove="Concrete\" />
+    <None Remove="Views\Login\" />
+    <None Remove="Views\AdminRoom\" />
+    <None Remove="Views\AdminService\" />
+    <None Remove="Models\Service\" />
+    <None Remove="Models\Subsribe\" />
+    <None Remove="Views\AdminSubsribe\" />
+    <None Remove="Views\AdminTestimonial\" />
+    <None Remove="Models\Testimonial\" />
+    <None Remove="Views\Admin\" />
+    <None Remove="Views\User\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\User\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\_HeadPartial\" />
+    <None Remove="Views\Shared\Components\_NavbarPartial\" />
+    <None Remove="Views\Shared\Components\_SliderPartial\" />
+    <None Remove="Views\Shared\Components\_ReservationPartial\" />
+    <None Remove="Views\Shared\Components\_AboutUsPartial\" />
+    <None Remove="Views\Shared\Components\_OurRoomsPartial\" />
+    <None Remove="Views\Shared\Components\_TrailerPartial\" />
+    <None Remove="Views\Shared\Components\_ServicePartial\" />
+    <None Remove="Views\Shared\Components\_TestimonialPartial\" />
+    <None Remove="Views\Shared\Components\_TeamPartial\" />
+    <None Remove="Views\Shared\Components\_FooterPartial\" />
+    <None Remove="Views\Shared\Components\_ScriptsPartial\" />
+    <None Remove="Models\About\" />
+    <None Remove="Views\AdminAbout\" />
+    <None Remove="Mapping\" />
+    <None Remove="Dtos\" />
+    <None Remove="Dtos\AboutDtos\" />
+    <None Remove="Dtos\RoomDtos\" />
+    <None Remove="Dtos\ServiceDtos\" />
+    <None Remove="Dtos\StaffDtos\" />
+    <None Remove="Dtos\SubsribeDtos\" />
+    <None Remove="Dtos\TestimonialDtos\" />
+    <None Remove="Models\Booking\" />
+    <None Remove="Views\Booking\" />
+    <None Remove="Views\AdminBooking\" />
+    <None Remove="Dtos\BookingDtos\" />
+    <None Remove="Dtos\ContactDtos\" />
+    <None Remove="Views\Contact\" />
+    <None Remove="Views\AdminContact\" />
+    <None Remove="Dtos\CustomerDtos\" />
+    <None Remove="Views\AdminCustomer\" />
+    <None Remove="Dtos\SendMessageDtos\" />
+    <None Remove="Dtos\MailDtos\" />
+    <None Remove="Views\AdminMail\" />
+    <None Remove="Views\AdminFileImage\" />
+    <None Remove="Views\AdminFileProcess\" />
+    <None Remove="Views\ErrorPage\" />
+    <None Remove="Dtos\IMDbDtos\" />
+    <None Remove="Views\AdminIMDb\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\Room\" />
+    <Folder Include="Models\Staff\" />
+    <Folder Include="Views\AdminStaff\" />
+    <Folder Include="Models\Register\" />
+    <Folder Include="Models\Login\" />
+    <Folder Include="Views\Register\" />
+    <Folder Include="Concrete\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\AdminRoom\" />
+    <Folder Include="Views\AdminService\" />
+    <Folder Include="Models\Service\" />
+    <Folder Include="Models\Subsribe\" />
+    <Folder Include="Views\AdminSubsribe\" />
+    <Folder Include="Views\AdminTestimonial\" />
+    <Folder Include="Models\Testimonial\" />
+    <Folder Include="Views\Admin\" />
+    <Folder Include="Views\User\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\User\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\_HeadPartial\" />
+    <Folder Include="Views\Shared\Components\_NavbarPartial\" />
+    <Folder Include="Views\Shared\Components\_SliderPartial\" />
+    <Folder Include="Views\Shared\Components\_ReservationPartial\" />
+    <Folder Include="Views\Shared\Components\_AboutUsPartial\" />
+    <Folder Include="Views\Shared\Components\_OurRoomsPartial\" />
+    <Folder Include="Views\Shared\Components\_TrailerPartial\" />
+    <Folder Include="Views\Shared\Components\_ServicePartial\" />
+    <Folder Include="Views\Shared\Components\_TestimonialPartial\" />
+    <Folder Include="Views\Shared\Components\_TeamPartial\" />
+    <Folder Include="Views\Shared\Components\_FooterPartial\" />
+    <Folder Include="Views\Shared\Components\_ScriptsPartial\" />
+    <Folder Include="Models\About\" />
+    <Folder Include="Views\AdminAbout\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Dtos\AboutDtos\" />
+    <Folder Include="Dtos\RoomDtos\" />
+    <Folder Include="Dtos\ServiceDtos\" />
+    <Folder Include="Dtos\StaffDtos\" />
+    <Folder Include="Dtos\SubsribeDtos\" />
+    <Folder Include="Dtos\TestimonialDtos\" />
+    <Folder Include="Models\Booking\" />
+    <Folder Include="Views\Booking\" />
+    <Folder Include="Views\AdminBooking\" />
+    <Folder Include="Dtos\BookingDtos\" />
+    <Folder Include="Dtos\ContactDtos\" />
+    <Folder Include="Views\Contact\" />
+    <Folder Include="Views\AdminContact\" />
+    <Folder Include="Dtos\CustomerDtos\" />
+    <Folder Include="Views\AdminCustomer\" />
+    <Folder Include="Dtos\SendMessageDtos\" />
+    <Folder Include="Dtos\MailDtos\" />
+    <Folder Include="Views\AdminMail\" />
+    <Folder Include="Views\AdminFileImage\" />
+    <Folder Include="Views\AdminFileProcess\" />
+    <Folder Include="Views\ErrorPage\" />
+    <Folder Include="Dtos\IMDbDtos\" />
+    <Folder Include="Views\AdminIMDb\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HotelProject.BusinessLayer\HotelProject.BusinessLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\HotelProject.DataAccessLayer\HotelProject.DataAccessLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\HotelProject.DtoLayer\HotelProject.DtoLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\HotelProject.EntityLayer\HotelProject.EntityLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\HotelProject.WebApi\HotelProject.WebApi.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

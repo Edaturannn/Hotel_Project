@@ -1,0 +1,25 @@
+﻿@model List<ResultIMDbDto>
+@{
+    Layout = "_AdminLayout";
+}
+
+<h3>Rapid API Kullandık</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Film Adı</th>
+        <th>Puan</th>
+        <th>Fragramn</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.rank</td>
+            <td>@item.title</td>
+            <td>@item.rating</td>
+            <td><a href="#" class="btn btn-dark">Fragmanı Oynat</a></td>
+        </tr>
+    }
+</table>
+
+

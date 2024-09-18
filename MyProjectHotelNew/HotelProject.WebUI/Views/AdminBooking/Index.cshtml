@@ -1,0 +1,45 @@
+﻿@model List<ResultBookingDto>
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Index";
+    int count = 0;
+}
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Mail</th>
+        <th>CheckIn</th>
+        <th>CheckOut</th>
+        <th>Adult Count</th>
+        <th>Child Count</th>
+        <th>Room Count</th>
+        <th>Special Request</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+            count++;
+        <tr>
+            <th>@count</th>
+            <td>@item.Name</td>
+            <td>@item.Mail</td>
+            <td>@item.CheckIn</td>
+            <td>@item.CheckOut</td>
+            <td>@item.AdultCount</td>
+            <td>@item.ChilCount</td>
+            <td>@item.RoomCount</td>
+            <td>@item.SpecialRequest</td>
+            <td>@item.Description</td>
+            <td><span class="badge badge-primary px-2">@item.Status</span></td>
+            <td><a href="/AdminBooking/UpdateBooking/@item.BookingID" class="btn mb-1 btn-rounded btn-outline-warning">Durumu Değiştir</a></td>
+            <td><a href="/AdminBooking/DeleteBooking/@item.BookingID" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+            <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>
+        </tr>
+    }
+</table>
+<td><a href="/AdminBooking/AddBooking" class="btn mb-1 btn-rounded btn-outline-info">Ekle</a></td>

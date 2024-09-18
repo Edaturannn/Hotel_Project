@@ -1,0 +1,273 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HotelProject.WebUI
+build_property.RootNamespace = HotelProject.WebUI
+build_property.ProjectDir = /Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminAbout/AddAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5BYm91dC9BZGRBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminAbout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5BYm91dC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminAbout/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5BYm91dC9VcGRhdGVBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminBooking/AddBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Cb29raW5nL0FkZEJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminBooking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Cb29raW5nL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminBooking/UpdateBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Cb29raW5nL1VwZGF0ZUJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminContact/AddSendMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Db250YWN0L0FkZFNlbmRNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminContact/Inbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Db250YWN0L0luYm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminContact/MessageDetailsByInbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Db250YWN0L01lc3NhZ2VEZXRhaWxzQnlJbmJveC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminContact/MessageDetailsBySendbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Db250YWN0L01lc3NhZ2VEZXRhaWxzQnlTZW5kYm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminContact/Sendbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Db250YWN0L1NlbmRib3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminContact/SideBarAdminContactCategoryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Db250YWN0L1NpZGVCYXJBZG1pbkNvbnRhY3RDYXRlZ29yeVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminContact/SideBarAdminContactPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Db250YWN0L1NpZGVCYXJBZG1pbkNvbnRhY3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminCustomer/AddCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5DdXN0b21lci9BZGRDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminCustomer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5DdXN0b21lci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminFileImage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5GaWxlSW1hZ2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminFileProcess/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5GaWxlUHJvY2Vzcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminIMDb/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5JTURiL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminMail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5NYWlsL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminRoom/AddRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Sb29tL0FkZFJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminRoom/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Sb29tL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminRoom/UpdateRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5Sb29tL1VwZGF0ZVJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminService/AddService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5TZXJ2aWNlL0FkZFNlcnZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminService/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5TZXJ2aWNlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminService/UpdateService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5TZXJ2aWNlL1VwZGF0ZVNlcnZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminStaff/AddStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5TdGFmZi9BZGRTdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminStaff/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5TdGFmZi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminStaff/UpdateStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5TdGFmZi9VcGRhdGVTdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminSubsribe/AddSubsribe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5TdWJzcmliZS9BZGRTdWJzcmliZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminSubsribe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5TdWJzcmliZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminSubsribe/UpdateSubsribe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5TdWJzcmliZS9VcGRhdGVTdWJzcmliZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminTestimonial/AddTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5UZXN0aW1vbmlhbC9BZGRUZXN0aW1vbmlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminTestimonial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5UZXN0aW1vbmlhbC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/AdminTestimonial/UpdateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5UZXN0aW1vbmlhbC9VcGRhdGVUZXN0aW1vbmlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Booking/_AddBookingPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZy9fQWRkQm9va2luZ1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Contact/_AddContactPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9fQWRkQ29udGFjdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/ErrorPage/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXJyb3JQYWdlL0Vycm9yNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_AboutUsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Fib3V0VXNQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_FooterPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Zvb3RlclBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_HeadPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0hlYWRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_NavbarPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX05hdmJhclBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_OurRoomsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX091clJvb21zUGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_ReservationPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1Jlc2VydmF0aW9uUGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_ScriptsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NjcmlwdHNQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_ServicePartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NlcnZpY2VQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_SliderPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NsaWRlclBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_TeamPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1RlYW1QYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_TestimonialPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1Rlc3RpbW9uaWFsUGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Components/_TrailerPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1RyYWlsZXJQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/_BookingLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Cb29raW5nTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/_ContactLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Db250YWN0TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/User/_SubscribePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fU3Vic2NyaWJlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

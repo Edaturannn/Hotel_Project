@@ -1,0 +1,14 @@
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/bin/Debug/net7.0/HotelProject.DtoLayer.deps.json
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/bin/Debug/net7.0/HotelProject.DtoLayer.runtimeconfig.json
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/bin/Debug/net7.0/HotelProject.DtoLayer.dll
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/bin/Debug/net7.0/HotelProject.DtoLayer.pdb
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.csproj.AssemblyReference.cache
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.AssemblyInfoInputs.cache
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.AssemblyInfo.cs
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.csproj.CoreCompileInputs.cache
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.dll
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/obj/Debug/net7.0/refint/HotelProject.DtoLayer.dll
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.pdb
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.genruntimeconfig.cache
+/Users/eda/Desktop/Asp_Net_Core_API_Hotel_New/MyProjectHotelNew/HotelProject.DtoLayer/obj/Debug/net7.0/ref/HotelProject.DtoLayer.dll

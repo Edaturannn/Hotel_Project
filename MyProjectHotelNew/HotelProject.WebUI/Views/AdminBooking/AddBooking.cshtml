@@ -1,0 +1,40 @@
+﻿@model CreateBookingDto
+@{
+    ViewData["Title"] = "Craete Booking";
+    Layout = "_AdminLayout";
+}
+
+<form method="post" asp-action="AddBooking" asp-controller="AdminBooking">
+    <label>Misafir Adı Soyadı</label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <br />
+    <label>Misafir Mail Adresi</label>
+    <input type="email" asp-for="Mail" class="form-control" />
+    <br />
+    <label>Misafir Giriş Tarihi</label>
+    <input type="date" asp-for="CheckIn" class="form-control" />
+    <br />
+    <label>Misafir Çıkış Tarihi</label>
+    <input type="date" asp-for="CheckOut" class="form-control" />
+    <br />
+    <label>Yetişkin Sayısı</label>
+    <input type="text" asp-for="AdultCount" class="form-control" />
+    <br />
+    <label>Çocuk Sayısı</label>
+    <input type="text" asp-for="ChilCount" class="form-control" />
+    <br />
+    <label>Oda Sayısı</label>
+    <input type="text" asp-for="RoomCount" class="form-control" />
+    <br />
+ 
+    <label>Durum</label>
+    <input type="text" asp-for="Status" class="form-control" />
+    <br />
+    <label>Özel İstekler</label>
+    <textarea class="form-control" rows="5" asp-for="SpecialRequest"></textarea>
+    <br />
+    <label>Açıklama</label>
+    <textarea class="form-control" rows="5" asp-for="Description"></textarea>
+    <br />
+    <button class="btn btn-primary">Ekle</button>
+</form>

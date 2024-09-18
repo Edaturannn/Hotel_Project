@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Update About";
+    Layout = "_AdminLayout";
+}
+
+<form method="post" asp-action="UpdateAbout" asp-controller="AdminAbout">
+    <input type="hidden" name="AboutD" />
+    <label>Hakkımızda Başlık 1</label>
+    <input type="text" name="Title1" class="form-control" />
+    <br />
+    <label>Hakkımızda Başlık 2</label>
+    <input type="text" name="Title2" class="form-control" />
+    <br />
+    <label>İçerik</label>
+    <input type="text" name="Content" class="form-control" />
+    <br />
+    <label>Personel Sayısı</label>
+    <input type="text" name="StaffCount" class="form-control" />
+    <br />
+    <label>Oda Sayısı</label>
+    <input type="text" name="RoomCount" class="form-control" />
+    <br />
+    <label>Müşteri Sayısı</label>
+    <input type="text" name="CustomerCount" class="form-control" />
+    <br />
+    <button class="btn btn-outline-success">Güncelle</button>
+</form>
+

@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Update Staff";
+    Layout = "_AdminLayout";
+}
+
+<form method="post" asp-action="UpdateStaff" asp-controller="AdminStaff">
+    <input type="hidden" name="StaffID" />
+    <label>Personel Adı</label>
+    <input type="text" name="Name" class="form-control" />
+    <br />
+    <label>Personel Ünvanı</label>
+    <input type="text" name="Title" class="form-control" />
+    <br />
+    <label>Sosyal Medya 1</label>
+    <input type="text" name="SocialMedia1" class="form-control" />
+    <br />
+    <label>Sosyal Medya 2</label>
+    <input type="text" name="SocialMedia2" class="form-control" />
+    <br />
+    <label>Sosyal Medya 3</label>
+    <input type="text" name="SocialMedia3" class="form-control" />
+    <br />
+    <button class="btn btn-outline-success">Güncelle</button>
+</form>
+

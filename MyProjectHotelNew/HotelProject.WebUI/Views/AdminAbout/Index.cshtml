@@ -1,0 +1,38 @@
+﻿@model List<ResultAboutDto>
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Index";
+    int count = 0;
+}
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Title1</th>
+        <th>Title2</th>
+        <th>Content</th>
+        <th>Room Count</th>
+        <th>Staff Count</th>
+        <th>Customer Count</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var item in Model)
+        {
+            count++;
+        <tr>
+            <th>@count</th>
+            <td>@item.Title1</td>
+            <td>@item.Title2</td>
+            <td>@item.Content</td>
+            <td>@item.RoomCount</td>
+            <td>@item.StaffCount</td>
+            <td>@item.CustomerCount</td>
+            <td><a href="/AdminAbout/UpdateAbout/@item.AboutD" class="btn mb-1 btn-rounded btn-outline-warning">Güncelle</a></td>
+            <td><a href="/AdminAbout/DeleteAbout/@item.AboutD" class="btn mb-1 btn-rounded btn-outline-danger">Sil</a></td>
+            <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>
+        </tr>
+    }
+</table>
+<td><a href="/AdminAbout/AddAbout" class="btn mb-1 btn-rounded btn-outline-info">Ekle</a></td>
+
