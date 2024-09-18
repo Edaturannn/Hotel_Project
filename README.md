@@ -76,6 +76,7 @@ API İletişimi: Veri alışverişi için API entegrasyonları gerçekleştirilm
 
 Rapid API: Dışarıdan çekilen veriler üzerinden API tüketimi yapılmıştır.
 
+Projede kullandığım katmanlar.
 
 1.) HotelProject.BusinessLayer
 
@@ -89,7 +90,7 @@ Rapid API: Dışarıdan çekilen veriler üzerinden API tüketimi yapılmıştı
 
 6.) HotelProject.WebUI
 
-Projede kullandığım katmanlar.
+
 
 <img width="1372" alt="Resim1" src="https://github.com/user-attachments/assets/f22e7f4b-48c6-4ea7-8aec-b45394b2e4cf">
 <img width="1372" alt="Resim2" src="https://github.com/user-attachments/assets/2617c710-52f5-4473-881a-9fcd3f7cac21">
