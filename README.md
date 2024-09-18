@@ -50,7 +50,7 @@ Vitrin Paneli: Kullanıcılar, otel seçeneklerini inceleyip detaylı bilgi alab
 Kullanılan Teknolojiler ve Mimariler
 Proje, modern yazılım geliştirme teknikleri ve endüstri standartları doğrultusunda inşa edilmiştir.
 
-ASP.NET Core 6.0: Güçlü ve ölçeklenebilir bir web uygulaması altyapısı sağlar.
+ASP.NET Core 7.0: Güçlü ve ölçeklenebilir bir web uygulaması altyapısı sağlar.
 
 Entity Framework Core: Code-First yaklaşımı ile esnek bir veri modeli sunar.
 
