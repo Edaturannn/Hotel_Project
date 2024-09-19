@@ -111,3 +111,7 @@ Projede kullandığım katmanlar.
 <img width="1440" alt="Resim15" src="https://github.com/user-attachments/assets/2988300c-e8d2-4c43-9d77-8286b129d8c4">
 <img width="1440" alt="Resim16" src="https://github.com/user-attachments/assets/cf3413b8-da19-4001-8164-19f2d6892c63">
 <img width="1440" alt="Resim17" src="https://github.com/user-attachments/assets/3bbd4817-f7a2-4a82-99f9-bc05ad5b1be9">
+<img width="1440" alt="Resim18" src="https://github.com/user-attachments/assets/06e99cb7-c556-4aa9-be42-266b80a50fae">
+<img width="1440" alt="Resim19" src="https://github.com/user-attachments/assets/ab5e2d61-3632-414d-9e1b-4c424b82d531">
+
+
