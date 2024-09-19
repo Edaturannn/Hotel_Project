@@ -12,6 +12,8 @@ Hotel Project Websitesi
 
 — Docker
 
+- Azure Data Studio
+
 — API Consume
 
 — Rapid API
