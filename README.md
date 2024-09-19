@@ -12,7 +12,7 @@ Hotel Project Websitesi
 
 — Docker
 
-- Azure Data Studio
+— Azure Data Studio
 
 — API Consume
 
