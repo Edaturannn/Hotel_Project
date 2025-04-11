@@ -59,12 +59,12 @@ Kullanıcılarla doğrudan mesajlaşma ve bildirim gönderme
 <h3>🖼️ Vitrin Paneli</h3>h3>
 Kullanıcılar için sunulan özellikler:
 
-Otel listesini inceleme ve detaylı bilgi görüntüleme
+<h3>Otel listesini inceleme ve detaylı bilgi görüntüleme</h3>
 Online otel rezervasyonu yapma
 Yöneticilerle iletişim kurma imkanı
 🛠️ Kullanılan Teknolojiler ve Altyapı
 
-Teknoloji / Yapı	Açıklama
+<h3>Teknoloji / Yapı	Açıklama</h3>
 ASP.NET Core 7.0	Yüksek performanslı, güvenli ve ölçeklenebilir bir web uygulama çatısı
 Entity Framework Core	Code-First yaklaşımıyla ilişkisel veri modelinin yönetimi
 N-Tier Architecture	İşlevselliğe göre ayrılmış katmanlar sayesinde sürdürülebilir ve okunabilir bir yapı
