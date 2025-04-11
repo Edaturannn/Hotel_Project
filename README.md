@@ -1,97 +1,83 @@
-Hotel Project Websitesi
+<h1>Hotel Project Websitesi</h1>
 
-— Auto Mapper
+- Auto Mapper
 
-— Asp.Net Core API
+- Asp.Net Core API
 
-— Asp.Net Identity
+- Asp.Net Identity
 
-— Swagger
+- Swagger
 
-— Postman
+- Postman
 
-— Docker
+- Docker
 
-— Azure Data Studio
+- Azure Data Studio
 
-— API Consume
+- API Consume
 
-— Rapid API
+- Rapid API
 
-— Json Web Token
+- Json Web Token
 
-— Outh 2.0
+- Outh 2.0
 
-— Login
+- Login
 
-— Register
+- Register
 
-— Asp.Net Core 7.0
+- Asp.Net Core 7.0
 
-— Identity Database Kütüphanesi
+- Identity Database Kütüphanesi
 
-— Fluent Validation
+- Fluent Validation
 
-— N Tier Architecture
+- N Tier Architecture
 
-— Dto Layer
+- Dto Layer
 
-— MVC
+- MVC
 
-— Entity Framework Core
+- Entity Framework Core
 
-— Repository Design Pattern
+- Repository Design Pattern
 
-— Mail Gönderme İşlemleri
+- Mail Gönderme İşlemleri
 
 
-Admin Paneli: Adminler, tabloların CRUD (Oluşturma, Okuma, Güncelleme, Silme) işlemlerini yönetebilir ve içerik yönetimini gerçekleştirebilir.
+Bu proje, otel rezervasyon süreçlerini yönetmek ve kullanıcılarla yöneticiler arasında etkileşim sağlamak amacıyla geliştirilmiş tam kapsamlı bir web uygulamasıdır. Uygulama, modern yazılım geliştirme prensiplerine uygun şekilde katmanlı mimari ve güncel teknolojiler kullanılarak inşa edilmiştir.
 
-Vitrin Paneli: Kullanıcılar, otel seçeneklerini inceleyip detaylı bilgi alabilir. Ayrıca otel rezervasyonu yapabilir ve adminlerle iletişim kurabilirler.
+<h2>📌 Proje Panelleri</h2>
 
-Kullanılan Teknolojiler ve Mimariler
-Proje, modern yazılım geliştirme teknikleri ve endüstri standartları doğrultusunda inşa edilmiştir.
+<h3>🔐 Admin Paneli</h3>
+Yöneticiler aşağıdaki işlemleri gerçekleştirebilir:
 
-ASP.NET Core 7.0: Güçlü ve ölçeklenebilir bir web uygulaması altyapısı sağlar.
+Otel bilgileri, oda detayları ve kullanıcılar üzerinde CRUD (Create, Read, Update, Delete) işlemleri
+Rezervasyon ve içerik yönetimi
+Kullanıcılarla doğrudan mesajlaşma ve bildirim gönderme
 
-Entity Framework Core: Code-First yaklaşımı ile esnek bir veri modeli sunar.
+<h3>🖼️ Vitrin Paneli</h3>h3>
+Kullanıcılar için sunulan özellikler:
 
-N-Tier Architecture: Katmanlara ayrılmış bir uygulama yapısı sağlar, bu da geliştirme ve bakım süreçlerini kolaylaştırır.
+Otel listesini inceleme ve detaylı bilgi görüntüleme
+Online otel rezervasyonu yapma
+Yöneticilerle iletişim kurma imkanı
+🛠️ Kullanılan Teknolojiler ve Altyapı
 
-SQL Server: Veriler, yerel SQL veritabanı yerine Docker üzerinde kurulan bir SQL sunucusunda tutulmuştur.
-
-Fluent Validation: Kullanıcı girdilerinin doğrulanmasını sağlar, böylece veri bütünlüğü artırılır.
-
-Repository Design Pattern: Sürdürülebilir bir yapı sunar ve Dependency Injection ile SOLID prensiplerine uygun olarak tasarlanmıştır.
-
-AutoMapper: DTO (Data Transfer Object) ve domain modeli arasında dönüşüm işlemleri gerçekleştirir.
-
-Identity: Güvenlik ve kimlik doğrulama sistemini yönetir.
-
-Docker: İzole bir ortamda çalıştırmak için konteynerlar kullandık. Bu, uygulamanın ana işletim sistemine bağımlılığını azaltmayı amaçladık.
-
-Json Web Token (JWT): API tarafında güvenliği sağlamak için kullanılır.
-
-Outh 2.0: Oluşturulan giriş token kontrolü yapılmak için kullanılır.
-
-API İletişimi: Veri alışverişi için API entegrasyonları gerçekleştirilmiştir.
-
-Rapid API: Dışarıdan çekilen veriler üzerinden API tüketimi yapılmıştır.
-
-Projede kullandığım katmanlar.
-
-1.) HotelProject.BusinessLayer
-
-2.) HotelProject.DataAccessLayer
-
-3.) HotelProject.DtoLayer
-
-4.) HotelProject.EntityLayer
-
-5.) HotelProject.WeApi
-
-6.) HotelProject.WebUI
-
+Teknoloji / Yapı	Açıklama
+ASP.NET Core 7.0	Yüksek performanslı, güvenli ve ölçeklenebilir bir web uygulama çatısı
+Entity Framework Core	Code-First yaklaşımıyla ilişkisel veri modelinin yönetimi
+N-Tier Architecture	İşlevselliğe göre ayrılmış katmanlar sayesinde sürdürülebilir ve okunabilir bir yapı
+SQL Server (Docker)	Veritabanı, Docker konteyneri üzerinden çalıştırılarak platformdan bağımsızlık sağlanmıştır
+FluentValidation	Form doğrulama işlemlerinin katmanlı ve sürdürülebilir biçimde gerçekleştirilmesi
+Repository Pattern	Veri erişimi soyutlayarak test edilebilir ve esnek bir yapı sunar
+AutoMapper	DTO (Data Transfer Object) ve Entity sınıfları arasında otomatik dönüşüm sağlar
+Identity	Yetkilendirme ve kimlik doğrulama sistemleri için kullanılmıştır
+Docker	Uygulamanın izole bir ortamda çalıştırılması sağlanarak taşınabilirlik artırılmıştır
+JWT (Json Web Token)	Kullanıcı doğrulama ve yetkilendirme için güvenli token yapısı
+OAuth 2.0	Yetkilendirme sürecinde token doğrulama sistemi
+Web API	Katmanlar arası veri alışverişi ve dış sistemlerle entegrasyon için RESTful API mimarisi
+RapidAPI	Dış kaynaklı verilerin entegre edilmesi amacıyla API tüketimi gerçekleştirilmiştir
 
 
 <img width="1372" alt="Resim1" src="https://github.com/user-attachments/assets/f22e7f4b-48c6-4ea7-8aec-b45394b2e4cf">
