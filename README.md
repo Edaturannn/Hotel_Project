@@ -77,7 +77,7 @@ Docker	Uygulamanın izole bir ortamda çalıştırılması sağlanarak taşınab
 JWT (Json Web Token)	Kullanıcı doğrulama ve yetkilendirme için güvenli token yapısı
 OAuth 2.0	Yetkilendirme sürecinde token doğrulama sistemi
 Web API	Katmanlar arası veri alışverişi ve dış sistemlerle entegrasyon için RESTful API mimarisi
-RapidAPI	Dış kaynaklı verilerin entegre edilmesi amacıyla API tüketimi gerçekleştirilmiştir
+RapidAPI	Dış kaynaklı verilerin entegre edilmesi amacıyla API tüketimi gerçekleştirilmiştir.
 
 
 <img width="1372" alt="Resim1" src="https://github.com/user-attachments/assets/f22e7f4b-48c6-4ea7-8aec-b45394b2e4cf">
